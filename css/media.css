@@ -1,0 +1,491 @@
+/*******************************************
+max-width 1280px
+*******************************************/
+
+@media (max-width: 1280px) {
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .navbar {
+        margin: auto 0px;
+    }
+
+    .banner-img img {
+        max-width: 100%;
+    }
+
+    .about1-img img {
+        max-width: 100%;
+    }
+
+    .about-2 .headline {
+        margin-top: -25px;
+    }
+
+    .about2-img img {
+        max-width: 100%;
+    }
+
+    .get-theme .btn-banner {
+        margin-left: 12px;
+    }
+}
+
+/*******************************************
+max-width 1199px
+*******************************************/
+
+@media (max-width: 1199px) {
+    body {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+        margin-right: 3px;
+    }
+
+    h6,
+    .btn-banner,
+    small,
+    .form-control {
+        font-size: 13px;
+    }
+
+    .banner-text {
+        width: 425px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .btn-banner {
+        margin-right: 10px;
+        width: 125px;
+        line-height: 3;
+    }
+
+    .banner-img img {
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .headline span {
+        margin-bottom: 95px;
+    }
+
+    .overview {
+        width: 205px;
+    }
+
+    .overview span {
+        font-size: 22px;
+        width: 75px;
+        margin-bottom: 28px;
+        height: 75px;
+        line-height: 75px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .about-2 .headline {
+        margin-top: -40px;
+    }
+
+    .testimonial .headline span {
+        margin-bottom: 80px;
+    }
+
+    .carousel-inner {
+        padding-bottom: 125px;
+    }
+
+    .carousel-item p {
+        font-size: 19px;
+    }
+
+    .carousel-indicators {
+        bottom: 35px;
+    }
+
+    .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+    }
+
+    .get-theme {
+        padding: 45px 0px;
+    }
+
+    sup {
+        font-size: 22px;
+    }
+
+    .price b {
+        font-size: 48px;
+    }
+
+    .price-text p {
+        width: 180px;
+    }
+
+    .contact-details i {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    footer {
+        padding: 44px 0px 18px;
+    }
+
+    .social i {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+}
+
+/*******************************************
+max-width 991px
+*******************************************/
+
+@media (max-width: 991px) {
+    .nav-link {
+        margin-left: 0px;
+    }
+
+    .nav-link {
+        display: inline-block;
+    }
+
+    .nav-link::before,
+    .nav-link::after {
+        width: 100%;
+    }
+
+    .banner-text {
+        width: 360px;
+        margin-bottom: 45px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .btn-banner {
+        margin-top: 30px;
+    }
+
+    .banner-img img {
+        bottom: 0;
+        position: absolute;
+    }
+
+    .overview {
+        margin-bottom: 50px;
+    }
+
+    .about h6 {
+        margin-top: 0px;
+    }
+
+    .about-2 {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .about2-img img {
+        max-width: 115%;
+        margin-top: 28px;
+    }
+
+    .carousel-item p {
+        font-size: 17px;
+    }
+
+    .carousel-item img {
+        margin-right: 10px;
+        max-width: 80%;
+    }
+
+    .carousel-item h4 {
+        font-size: 16px;
+    }
+
+    .carousel-inner {
+        padding-bottom: 90px;
+    }
+
+    .carousel-indicators {
+        bottom: 20px;
+    }
+
+    .get-theme span {
+        display: flex;
+    }
+
+    .pricing {
+        margin-bottom: 20px;
+    }
+
+    .pricing-card {
+        width: 85%;
+        margin: 0px auto 50px;
+    }
+
+    .pricing-card h3 {
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+
+    .price {
+        padding-bottom: 5px;
+    }
+
+    .price p {
+        margin-top: 36px;
+    }
+
+    .price-text {
+        padding-top: 30px;
+    }
+}
+
+/*******************************************
+max-width 767px
+*******************************************/
+
+@media (max-width: 767px) {
+    h6 {
+        margin-top: 35px;
+    }
+
+    .banner-text p {
+        width: 300px;
+    }
+
+    .banner-img img {
+        width: 97%;
+    }
+
+    .headline span,
+    .pricing .headline span,
+    .contact .headline span {
+        margin-top: 20px !important;
+        margin-bottom: 75px;
+    }
+
+    .about {
+        padding-top: 40px;
+        padding-bottom: 40PX;
+
+    }
+
+    .about1-img img {
+        max-width: 120%;
+        margin-left: -22px;
+        margin-top: 60px;
+    }
+
+    .details {
+        margin-top: 16px;
+        line-height: 1.8;
+    }
+
+    .details span i {
+        font-size: 14px;
+    }
+
+    .about-2 {
+        padding-top: 44px;
+        padding-bottom: 20px;
+    }
+
+    .about2-img {
+        text-align: center;
+    }
+
+    .about2-img img {
+        max-width: 85%;
+        margin-top: 0px;
+        margin-left: auto;
+    }
+
+    .testimonial .headline span {
+        margin-bottom: 60px;
+    }
+
+    .carousel-item p {
+        width: 102%;
+    }
+
+    .carousel-item img {
+        width: 50px;
+    }
+
+    .carousel-item h6 {
+        margin-bottom: 30px;
+        margin-top: -5px;
+    }
+
+    .get-theme {
+        padding: 30px 0px;
+    }
+
+    .get-theme .btn-banner {
+        float: none;
+        margin-top: 25px;
+    }
+
+    .pricing-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    form {
+        padding-top: 35px;
+        margin-top: -20px;
+        transform: translateY(50px);
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea.form-control {
+        width: 100%;
+    }
+
+    .form-control {
+        margin-bottom: 16px;
+    }
+
+    .msg {
+        padding-bottom: 5px;
+        height: 205px;
+    }
+
+    .btn-send {
+        width: 100%;
+    }
+
+    .map {
+        height: 250px;
+    }
+
+    footer {
+        padding: 35px 0px 10px;
+    }
+}
+
+/*******************************************
+max-width 575px
+*******************************************/
+
+@media (max-width: 575px) {
+    .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-text p {
+        width: 100%;
+    }
+
+    .overview {
+        margin-bottom: 35px;
+    }
+
+    .overview span {
+        font-size: 20px;
+        width: 65px;
+        height: 65px;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .about1-img {
+        text-align: center;
+    }
+
+    .about1-img img {
+        max-width: 85%;
+        margin-left: auto;
+        margin-top: 15px;
+    }
+
+    .about h6 {
+        margin-top: 15px;
+    }
+
+    .carousel-item p {
+        width: 99%;
+    }
+
+    .pricing-card {
+        width: 330px;
+    }
+
+    .contact ul {
+        margin-bottom: 35px;
+    }
+
+    .contact-details i {
+        margin-bottom: 15px;
+    }
+
+    form {
+        margin-top: -40px;
+    }
+
+    .social i {
+        margin: 0px 12px 4px;
+        font-size: 17px;
+    }
+
+    small {
+        line-height: 3;
+    }
+}
+
+/*******************************************
+max-width 375px
+*******************************************/
+
+@media (max-width: 375px) {
+
+    h6,
+    .btn-banner,
+    small,
+    .form-control {
+        font-size: 12px;
+    }
+
+    .btn-banner {
+        margin-right: 5px;
+        width: 105px;
+        margin-top: 15px;
+    }
+
+    .details .nav {
+        flex-wrap: nowrap;
+    }
+
+    .pricing-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+    color: #999999;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-left: -45px;
+    margin-right: -45px;
+}
+
+h1,
+.btn-banner,
+.testimonial,
+.testimonial h2,
+.carousel-item h6,
+.get-theme h2 {
+    color: #ffffff;
+}
+
+h1,
+h2,
+.nav-link,
+small {
+    font-weight: 600;
+}
+
+h6,
+.btn-banner,
+.pricing-card h3,
+.price b,
+.form-control {
+    font-weight: 700;
+}
+
+h6,
+.btn-banner,
+small,
+.form-control {
+    font-size: 14px;
+    line-height: 3.43;
+    text-transform: uppercase;
+}
+
+/**********************************
+Header
+***********************************/
+
+header {
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 28px 0px 53px 1px;
+    margin: auto -30px;
+}
+
+.nav-link {
+    color: #fffefe;
+    font-size: 16px;
+    line-height: 2.6;
+    position: relative;
+    padding: 0px !important;
+    margin-left: 23px;
+}
+
+.nav-link:hover {
+    color: #fffefe;
+}
+
+.nav-link::before,
+.nav-link::after {
+    content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 2px;
+    width: 47%;
+    transition: 0.4s;
+    bottom: -5px;
+    opacity: 0;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    bottom: 0;
+    opacity: 1;
+}
+
+.nav-link:hover::before {
+    left: 0;
+}
+
+.nav-link:hover::after {
+    right: 0;
+}
+
+/**********************************
+Header
+***********************************/
+
+.banner-text {
+    margin-top: -25px;
+    width: 480px;
+}
+
+h6 {
+    color: #008ed6;
+    letter-spacing: .1em;
+    margin-top: 46px;
+    margin-bottom: -8px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-top: 16px;
+}
+
+.btn-banner {
+    margin-top: 42px;
+    margin-right: 17px;
+    padding: 0px;
+    width: 159px;
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+.btn-banner:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #4b494c;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.banner-img img {
+    margin-left: -20px;
+}
+
+/**********************************
+Section Headline
+***********************************/
+
+h2 {
+    font-size: 36px;
+    line-height: 1.34;
+    color: #1a1a1a;
+}
+
+.headline span {
+    width: 42px;
+    display: block;
+    margin: 31px auto 107px;
+}
+
+.headline span::before,
+.headline span::after {
+    content: "";
+    background: #008ed6;
+    height: 2px;
+}
+
+.headline span::before {
+    width: 46%;
+    float: left;
+}
+
+.headline span::after {
+    width: 46%;
+    float: right;
+}
+
+/**********************************
+About 1 Section
+***********************************/
+
+.overview {
+    width: 250px;
+    margin: 0px auto 70px;
+}
+
+.overview span {
+    color: #008ed6;
+    font-size: 32px;
+    width: 88px;
+    display: block;
+    margin: 0 auto 34px;
+    height: 88px;
+    border: 1px solid #e1e1e1;
+    border-radius: 55px;
+    line-height: 88px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 0.84;
+    color: #1a1a1a;
+    font-weight: 400;
+}
+
+.about {
+    border-top: 1px solid #ededed;
+    padding: 53px 0px 20px;
+}
+
+.about1-img img {
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.about .headline span,
+.about-2 .headline span {
+    margin: 24px auto 50px;
+}
+
+/**********************************
+About 2 Section
+***********************************/
+
+.details {
+    line-height: 2;
+    color: #1b1b1b;
+    margin-top: 25px;
+}
+
+.details span {
+    display: block;
+    width: 30px;
+    text-align: center;
+    margin-left: -6px;
+}
+
+.details span i {
+    font-size: 15px;
+    color: #008ed6;
+}
+
+.about-2 {
+    background-color: #f2f2f2;
+    padding-top: 66px;
+    padding-bottom: 20px;
+}
+
+.about2-img img {
+    margin-top: -35px;
+    margin-left: -30px;
+}
+
+/**********************************
+Testimonials Section
+***********************************/
+
+.testimonial {
+    background-image: url(../images/testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.testimonial .headline span {
+    margin: 25px auto 99px;
+}
+
+.carousel-inner {
+    padding-bottom: 167px;
+}
+
+.carousel-item p {
+    font-size: 24px;
+    line-height: 1.34;
+    font-style: italic;
+    margin-bottom: 22px;
+    max-width: 712px;
+    width: 101%;
+}
+
+.carousel-item img {
+    border-radius: 55px;
+    margin-right: 24px;
+}
+
+.carousel-item h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.carousel-item h6 {
+    line-height: 1.86;
+    margin-top: -1px;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+}
+
+.carousel-indicators {
+    bottom: 46px;
+}
+
+.carousel-indicators li {
+    width: 9px;
+    height: 9px;
+    border-radius: 55px;
+    border-bottom: none;
+    border-top: none;
+    margin-right: 9px;
+    margin-left: 9px;
+    background-color: transparent;
+    border: 1px solid #f2f2f2;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+    transform: scale(1.3);
+}
+
+/**********************************
+Get Theme Section
+***********************************/
+
+.get-theme {
+    background-color: #15141a;
+    padding: 58px 0px;
+    margin-top: -1px;
+}
+
+.get-theme span {
+    font-weight: 300;
+}
+
+.get-theme .btn-banner {
+    margin: 0px 0px 0px 21px;
+    float: right;
+}
+
+/**********************************
+Pricing Section
+***********************************/
+
+.pricing .headline span {
+    margin: 26px auto 98px;
+}
+
+.pricing {
+    margin-top: -6px;
+    margin-bottom: 62px;
+}
+
+.pricing-card {
+    border: 1px solid #e0e0e0;
+    padding-bottom: 12px;
+}
+
+.pricing-card h3 {
+    text-transform: uppercase;
+    margin-top: 26px;
+    margin-bottom: 23px;
+}
+
+.price {
+    border-top: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.price p {
+    line-height: 1.56;
+    margin-top: 51px;
+}
+
+.price b {
+    font-size: 60px;
+    line-height: 20px;
+    color: #1a1a1a;
+}
+
+sup {
+    font-size: 26px;
+    top: -0.7em;
+    font-weight: 700;
+}
+
+.price-text {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 45px;
+}
+
+.price-text p {
+    width: 205px;
+    margin: auto;
+}
+
+.price-text span {
+    color: #008ed6;
+}
+
+.pricing-card .btn-banner {
+    background-color: transparent;
+    border: 1px solid #e0e0e0;
+    margin-right: 0px;
+    color: #008ed6;
+}
+
+.pricing-card:hover .price b,
+.pricing-card:hover .price,
+.pricing-card:hover .btn-banner {
+    background-color: #008ed6;
+    border-top: 1px solid #008ed6;
+    color: #ffffff;
+}
+
+/**********************************
+Contact Section
+***********************************/
+
+.contact {
+    background-color: #ededed;
+}
+
+.contact .headline {
+    margin-top: -6px;
+}
+
+.contact .headline span {
+    margin: 26px auto 86px;
+}
+
+.contact-details i {
+    font-size: 32px;
+    color: #008ed6;
+    margin-bottom: 27px;
+}
+
+form {
+    background-color: #15141a;
+    margin-top: -10px;
+    padding-top: 61px;
+    padding-bottom: 40px;
+    transform: translateY(62px);
+}
+
+.form-control {
+    width: 96%;
+    background-color: transparent;
+    border-color: #444348;
+    height: calc(2em + 1.1rem + 2px);
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    margin-bottom: 22px;
+    text-transform: none;
+}
+
+.msg {
+    height: 100%;
+    padding-bottom: 22px;
+}
+
+textarea.form-control {
+    height: 100%;
+    width: 93%;
+    line-height: 2.3;
+    resize: none;
+}
+
+::placeholder {
+    text-transform: uppercase;
+}
+
+.form-control:focus {
+    color: #999999;
+    background-color: transparent;
+    border-color: #444348;
+    box-shadow: none;
+}
+
+.btn-send {
+    width: 97%;
+}
+
+.btn-send .btn-banner {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.map {
+    height: 370px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+}
+
+/**********************************
+Footer
+***********************************/
+
+footer {
+    padding: 52px 0px 25px;
+    color: #444348;
+    background-color: #15141a;
+}
+
+.social i {
+    margin: 0px 16px 10px;
+    font-size: 20px;
+    color: #444348;
+}
+
+.social i:hover {
+    color: #008ed6;
+}
